@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C0C0C0;
+    font-size: 90%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    text-align: right;
+    direction: rtl;
+    
+}
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+a{text-decoration: none;}
+a:link, a:visited{color: #EE5A24;}
+a:hover, a:active{color: #F79F1F;}
+
+h1{
+    margin-top: 10px;
+    padding: 30px;
+    color: #C0C0C0;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    background-color: #EE5A24;
+    border-radius: 10px;
+}
+
+/* ------------------------------------- */
+.mainhed>nav{
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.mainhed>nav> ul{
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+.mainhed>nav> ul>li{
+    display: inline;
+    font-size: large;
+    margin: 30px;
+}
+.mainhed a:link, .mainhed a:visited{
+    color: wheat;
+    padding: 10px 40px;
+    display: inline-block;
+}
+.mainhed a:hover, .mainhed a:active{
+    color: wheat;
+    background-color: #EE5A24;
+}
+
+
+/* ------------------------------------ */
+
+.main{
+    background-color: white;
+    padding: 5%;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 10px ;
+    width: 60%;
+    float: right;
+   
+}
+
+/* ------------------------------------ */
+.main2{
+   width: 29%;
+   float: left;
+}
+
+.img{
+    width: 100%;
+    height: 30%;
+    border-radius: 20px;
+    margin: 10px 0 -10px 0;
+}
+
+figcaption{
+    font-size: 15px;
+}
+iframe{
+    margin-top: 13px;
+}
+.imgmap{
+    width: 100%;
+    margin: 10px -10px;
+    padding: 10px;
+}
+
+
+
+
+
+/* css for mobile */
+
+
+
+
+@media screen and (max-width: 480px){
+    .body{
+        width: 90%;
+        font-size:90% ;
+    }
+   
+/* ------------------------------------- */
+
+
+.mainhed>nav{
+    border-radius: 10px;
+}
+
+.mainhed>nav> ul{
+  width: 100%; 
+  padding: 0;
+}
+.mainhed>nav> ul>li{
+    margin: 0%;
+}
+.mainhed a:link, .mainhed a:visited{
+    display: block;
+}
+
+
+/* ------------------------------------ */
+
+.main{
+    font-size: 20px;
+    width: 86%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* ------------------------------------ */
+
+.main2{
+   width: 100%;
+}
+
+.img{
+    width: 100%;
+}
+
+figcaption{
+    font-size: 20px;
+}
+video{
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+iframe{
+    width: 100%;
+    height: 200px;
+    margin-top: 13px;
+}
+}
