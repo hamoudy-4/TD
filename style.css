@@ -31,7 +31,6 @@ h1{
     font-family: 'Noto Sans Arabic', sans-serif;
     background-color: #EE5A24;
     border-radius: 10px;
-    
 }
 
 /* ------------------------------------- */
@@ -179,22 +178,41 @@ iframe{
 .main{
     font-size: 20px;
     width: 86%;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 /* ------------------------------------ */
 
 .main2{
-   width: 100%;
+   width: 86%;
 }
 
 .img{
-    width: 100%;
+    width: 90%;
+}
+
+.main3{
+     font-size: 20px;
+    width: 86%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main4{
+    font-size: 20px;
+    width: 86%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.last{
+     font-size: 20px;
+    width: 86%;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 figcaption{
-    font-size: 20px;
+    font-size: 14px;
 }
 video{
  margin-top: 10px;
